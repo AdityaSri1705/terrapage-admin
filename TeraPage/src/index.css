@@ -1,0 +1,35 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  user-select: none;
+  font-family: "Helvetica" !important;
+}
+
+@font-face {
+  font-family: "Helvetica";
+  src: url("./Assets/Fonts/Helvetica-Font/Helvetica.ttf") format("truetype");
+}
+/* @font-face {
+  font-family: "Poppins_Bold";
+  src: url("./Assets/Fonts/Poppins/Poppins-Bold.ttf") format("truetype");
+} */
+
+/* ScrollBar.css */
+/* Horizontal Scrollbar */
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px; /* Height of the scrollbar */
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1; /* Color of the scrollbar track */
+}
+
+::-webkit-scrollbar-thumb {
+  background: #b3b3b3; /* Color of the scrollbar thumb */
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #949494; /* Color of the scrollbar thumb on hover */
+}

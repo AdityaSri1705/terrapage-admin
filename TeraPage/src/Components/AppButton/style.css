@@ -1,0 +1,21 @@
+.appBtn {
+  background: #4f33d1 !important;
+  height: 45px !important;
+  border-radius: 12px !important;
+  font-size: 14px !important;
+  font-weight: 400 !important;
+  color: #fff !important;
+  padding: 0 16px !important;
+  margin: 0 12px !important;
+}
+.appBtnOutline {
+  background: #ffffff !important;
+  height: 45px !important;
+  border-radius: 12px !important;
+  font-size: 14px !important;
+  font-weight: 400 !important;
+  color: #444444 !important;
+  padding: 0 16px !important;
+  border: 1px solid #101828 !important;
+  margin: 0 12px !important;
+}

@@ -1,0 +1,331 @@
+.workspacePop {
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  background: rgba(63, 63, 63, 0.267);
+  justify-content: center;
+  align-items: center;
+  top: 0;
+  left: 0;
+  z-index: 9;
+}
+.workspaceContaint {
+  width: 50%;
+  /* height: 90vh; */
+  background: #fff;
+  padding: 20px 40px;
+  flex-direction: column;
+  border-radius: 16px;
+}
+.workspaceHeader {
+  font-size: 20px !important;
+  font-weight: 700 !important;
+  margin-bottom: 5% !important;
+  color: #101828;
+}
+.workspaceLabel {
+  font-size: 16px !important;
+  color: #101828;
+}
+.workspaceInput {
+  height: 50px;
+  border-radius: 8px;
+  padding: 8px 16px;
+  border: 1px solid #0000001f;
+  cursor: pointer;
+}
+.workspaceInput:focus {
+  outline: none;
+}
+.workspaceInputName {
+  width: 100%;
+  margin-bottom: 5%;
+  margin-top: 8px;
+}
+.workspaceSettingNav {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 40px;
+}
+.workSetNavTabe {
+  width: 158px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  padding: 0 5px;
+}
+.workSetNavTabe p {
+  font-size: 18px !important;
+  font-weight: 500 !important;
+  color: #706c80;
+}
+.workSetNavTabeActive {
+  border-bottom: 2px solid var(--Primary-Main, #4f33d1);
+}
+.workSetNavTabeActive p {
+  font-size: 18px !important;
+  font-weight: 900 !important;
+  color: #101828;
+}
+.settingBox {
+  width: 100%;
+  height: 100%;
+  flex-direction: column;
+}
+.fileInputBox {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px dotted #0000006b;
+  border-radius: 12px;
+  cursor: pointer;
+}
+.fileInputLabel {
+  width: 100%;
+  font-size: 14px !important;
+  font-weight: 400 !important;
+  color: #98a2b3;
+  text-align: center;
+  margin-top: 8px !important;
+}
+.basicBox {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 30px;
+  margin-bottom: 16px;
+}
+.lastBasicBox {
+  margin-top: 16px;
+}
+.basicBox > div {
+  width: 48%;
+  display: flex;
+  flex-direction: column;
+}
+.inputBox {
+  width: 100%;
+  position: relative;
+  margin-bottom: 16px;
+}
+.pickerBox {
+  width: 100%;
+  margin-bottom: 16px;
+}
+.pickerBox input {
+  padding: 10px 14px;
+}
+.inputBox input {
+  width: 100%;
+  height: 44px;
+  padding: 0 35px;
+}
+.rightIcon {
+  position: absolute;
+  top: 13px;
+  left: 8px;
+}
+.downArrow {
+  position: absolute;
+  top: 13px;
+  right: 11px;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+.researcherLink {
+  width: 100%;
+  text-align: end;
+  text-decoration: underline;
+  color: #000;
+  font-size: 16px !important;
+  font-weight: 400 !important;
+  cursor: pointer;
+}
+.cusHeaderLabel {
+  font-size: 18px !important;
+  font-weight: 500 !important;
+  margin-bottom: 16px !important;
+}
+.checkBox {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: start;
+  margin-bottom: 14px;
+}
+.checkBox input {
+  cursor: pointer;
+  width: 20px;
+  height: 20px;
+}
+.checkBox p {
+  margin-left: 16px !important;
+  cursor: pointer;
+}
+.subInputBox {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 38px;
+  margin-bottom: 24px;
+}
+.CSPInput {
+  width: 60px;
+  height: 30px;
+}
+.subInputBox p {
+  margin: 0 16px;
+}
+.workPupBtnBox {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  margin-top: 30px;
+}
+.categoryInput {
+  padding: 0 12px !important;
+  cursor: pointer;
+}
+.categoryDrop {
+  position: absolute;
+  left: 0px;
+  top: 52px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  border-radius: 5px;
+  z-index: 9;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.researcherDrop {
+  top: -285px;
+}
+.categoryDropItem {
+  width: 100%;
+  height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  padding: 0 20px;
+  background: #fff;
+  transition: all 0.3s;
+  cursor: pointer;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.151);
+}
+.categoryDropItem p {
+  color: #000;
+}
+.categoryDropItem:hover {
+  background: #6147d6;
+}
+.categoryDropItem:hover p {
+  color: #ffffff;
+}
+.pickerBox .css-z3c6am-MuiFormControl-root-MuiTextField-root {
+  width: 100%;
+}
+.researchDropTopLabel {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 56px;
+  background: #fff;
+}
+.researchDropTopLabel p {
+  font-size: 14px !important;
+  font-weight: 500 !important;
+  text-decoration: underline;
+  margin-right: 16px !important;
+  cursor: pointer;
+}
+.researcherDrop .categoryDropItem {
+  height: 56px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: start;
+}
+.researcherDrop input {
+  width: 20px;
+  height: 20px;
+}
+.researcherDrop p {
+  margin-left: 16px !important;
+}
+.chackBox {
+  width: 20px;
+  height: 20px;
+  background: #fff;
+  border-radius: 4px;
+  position: relative;
+}
+.chackBox .chackBoxImg {
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+}
+.chackBox .chack {
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  top: 2px;
+  left: 2px;
+  cursor: pointer;
+}
+.CSmonthDrop {
+  width: 102px;
+  height: 28px;
+  border-radius: 8px;
+  border: 1px solid #0000001f;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  padding: 0 10px;
+  cursor: pointer;
+}
+.CSmonthDrop p {
+  margin: 0;
+}
+.CSmonthDrop .MdownArrow {
+  transition: all 0.5s;
+}
+.monDropIbox {
+  width: 100%;
+  position: absolute;
+  top: 30px;
+  left: 0px;
+  transition: all 0.5s;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border-radius: 12px;
+}
+.monDropItem {
+  width: 100%;
+  height: 36px;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  background: #fff;
+  transition: all 0.3s;
+  border: 1px solid rgba(128, 128, 128, 0.062);
+}
+.monDropItem:hover {
+  background: #6147d6;
+}
+.monDropItem:hover p {
+  color: #ffffff;
+}

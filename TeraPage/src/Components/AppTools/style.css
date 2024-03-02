@@ -1,0 +1,80 @@
+.searchBar {
+  width: 100%;
+  height: 40px;
+  position: relative;
+}
+.searchBar input {
+  width: 100%;
+  height: 100%;
+  border-radius: 12px !important;
+  border: 1px solid rgb(134, 134, 134);
+  padding: 0 45px;
+}
+.searchBar input:focus {
+  outline: none;
+}
+.searchBar img {
+  position: absolute;
+  top: 10px;
+  left: 8px;
+  width: 20px;
+  height: 20px;
+}
+.statusBox {
+  width: 100%;
+  height: 100%;
+  border: 1px solid rgb(180, 180, 180);
+  border-radius: 12px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: start;
+  padding-left: 10px;
+  cursor: pointer;
+}
+.statusBox .statusLabel {
+  font-size: 14px !important;
+  color: #101828;
+  font-weight: 600 !important;
+}
+.statusBox img {
+  transition: all 0.5s;
+  position: absolute;
+  top: 11px;
+  right: 6px;
+}
+.statusPop {
+  width: 100%;
+  position: absolute;
+  top: 44px;
+  left: 0px;
+  background: #fff;
+  border-radius: 12px;
+  overflow: hidden;
+  z-index: 9;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.statusPopItem {
+  width: 100%;
+  height: 36px;
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+  cursor: pointer;
+  border-bottom: 1ps solid rgba(128, 128, 128, 0.212);
+}
+.statusPopItem:hover {
+  background: #6147d6;
+}
+.statusPopItem:hover p {
+  color: #fff;
+}
+.workListNavItem {
+  position: relative;
+  height: 40px;
+}
+.workshotList .arrowDrop {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
